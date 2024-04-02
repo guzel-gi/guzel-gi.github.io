@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <a class="header__logo logo">
+                    <img src="./images/logo.png" alt="">
+                </a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="">Episodes</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="promo__wrapper _container">
+                <div class="promo__container">
+                    <div class="promo__img">
+                        <picture>
+                            <source media="(max-width: 1092px)" srcset="./images/promo_1092px.png" />
+                            <source media="(min-width: 1093px)" srcset="./images/promo.png" />
+                            <img src="./images/promo.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="promo__description">
+                        <h1 class="promo__title">Take your podcast to the next level</h1>
+                        <div class="listen-on">
+                            <p class="listen-on__text">Listened on</p>
+                            <div class="promo__listen-on-links listen-on-links">
+                                <a class="listen-on__item" href="">
+                                    <img src="./images/listened-on1.png">
+                                </a>
+                                <a class="listen-on__item" href="">
+                                    <img src="./images/listened-on2.png">
+                                </a>
+                                <a class="listen-on__item" href="">
+                                    <img src="./images/listened-on3.png">
+                                </a>
+                                <a class="listen-on__item" href="">
+                                    <img src="./images/listened-on4.png">
+                                </a>
+                                <a class="listen-on__item" href="">
+                                    <img src="./images/listened-on5.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="last-episodes__wrapper _container">
+                <div class="last-episodes__header">
+                    <h1 class="last-episodes__title">Latest episodes</h1>
+                    <button class="last-episodes__title-button main-button">View all episodes</button>
+                </div>
+                <div class="last-episodes__episodes-list">
+                    <div class="last-episodes__episode">
+                        <div class="last-episodes__img">
+                            <picture>
+                                <source media="(max-width: 1092px)" srcset="./images/episode3_1092px.png" />
+                                <source media="(min-width: 1093px)" srcset="./images/episode3.png" />
+                                <img src="./images/episode3.png" alt="">
+                            </picture>
+                        </div>
+                        <div class="last-episodes__description">
+                            <a href="" class="last-episodes__tag">Gear</a>
+                            <h2 class="last-episodes__number">Episode 3</h2>
+                            <h1 class="last-episodes__name">Should you get outboard audio gear?</h1>
+                            <p class="last-episodes__text text">Is hardware really worth it when it comes to
+                                podcasting?
+                                The answer is...it depends. Here’s our reasons on why you might want to consider
+                                picking
+                                something up.</p>
+                            <button class="last-episodes__button main-button">View Episode Details</button>
+                        </div>
+                    </div>
+                    <div class="last-episodes__episode">
+                        <div class="last-episodes__img">
+                            <picture>
+                                <source media="(max-width: 1092px)" srcset="./images/episode2_1092px.png" />
+                                <source media="(min-width: 1093px)" srcset="./images/episode2.png" />
+                                <img src="./images/episode2.png" alt="">
+                            </picture>
+                        </div>
+                        <div class="last-episodes__description">
+                            <a href="" class="last-episodes__tag">Tips & Tricks</a>
+                            <h2 class="last-episodes__number">Episode 2</h2>
+                            <h1 class="last-episodes__name">Mic tricks to take you to the next level</h1>
+                            <p class="last-episodes__text text">Stop rolling with those default settings on your
+                                mic.
+                                These small tweaks will take you from sounding good to great.</p>
+                            <button class="last-episodes__button main-button">View Episode Details</button>
+                        </div>
+                    </div>
+                    <div class="last-episodes__episode">
+                        <div class="last-episodes__img">
+                            <picture>
+                                <source media="(max-width: 1092px)" srcset="./images/episode1_1092px.png" />
+                                <source media="(min-width: 1093px)" srcset="./images/episode1.png" />
+                                <img src="./images/episode1.png" alt="">
+                            </picture>
+                        </div>
+                        <div class="last-episodes__description">
+                            <a href="" class="last-episodes__tag">Gear</a>
+                            <h2 class="last-episodes__number">Episode 1</h2>
+                            <h1 class="last-episodes__name">The best microphone under $200</h1>
+                            <p class="last-episodes__text text">With so many microphones on the market, how are you
+                                supposed
+                                to know what’s the best?
+                                Take a look at our top picks.</p>
+                            <button class="last-episodes__button main-button">View Episode Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="host__wrapper _container">
+                <div class="host__container">
+                    <div class="host__description">
+                        <a href="" class="host__button">
+                            <img src="./images/arrow.png" alt="">
+                        </a>
+                        <h2 class="host__subtitle">Meet your host</h2>
+                        <h1 class="host__title">Jacob Paulaner</h1>
+                        <p class="host__text text">Jacob has a background in audio engineering, and has been
+                            podcasting since the early days.
+                        </p>
+                        <br>
+                        <p class="host__text text">He’s here to help you level up your game by sharing everything
+                            he’s learned along the way.
+                        </p>
+                    </div>
+                    <div class="host__img">
+                        <picture>
+                            <source media="(max-width: 1092px)" srcset="./images/subscribe-img_1092px.png" />
+                            <source media="(min-width: 1093px)" srcset="./images/subscribe-img.png" />
+                            <img src="./images/subscribe-img.png" alt="">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe__wrapper _container">
+                <div class="subscribe__container">
+                    <div class="subscribe__description">
+                        <h2 class="subscribe__subtitle">Email Newsletter</h2>
+                        <h1 class="subscribe__title">Subscribe for updates</h1>
+                    </div>
+                    <form class="subscribe__form" action="">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <button class="subscribe__button main-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="reports__wrapper _container">
+                <div class="reports__container">
+                    <div class="reports__item">
+                        <div class="reports__stars">
+                            <img src="" alt="">
+                        </div>
+                        <p class="reports__text">I can’t recommend this podcast enough</p>
+                        <p class="reports__name">Betty Lacey</p>
+                    </div>
+                    <div class="reports__item">
+                        <div class="reports__stars"><img src="" alt=""></div>
+                        <p class="reports__text">Jacob is the best in the business</p>
+                        <p class="reports__name">Adam Driver</p>
+                    </div>
+                    <div class="reports__item">
+                        <div class="reports__stars"><img src="" alt=""></div>
+                        <p class="reports__text">A wealth of audio knowledge</p>
+                        <p class="reports__name">Marcus Brown</p>
+                    </div>
+                    <div class="reports__item">
+                        <div class="reports__stars"><img src="" alt=""></div>
+                        <p class="reports__text">Every episode is a gem!</p>
+                        <p class="reports__name">Jessica Knowl</p>
+                    </div>
+                    <div class="reports__item">
+                        <div class="reports__stars"><img src="" alt=""></div>
+                        <p class="reports__text">Whoa whoa, let me take some notes!</p>
+                        <p class="reports__name">Scott Adams</p>
+                    </div>
+                    <div class="reports__item">
+                        <div class="reports__stars"><img src="" alt=""></div>
+                        <p class="reports__text">I’ve upped my game considerably since I started listening</p>
+                        <p class="reports__name">Steven Blast</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__wrapper _container">
+                <div class="footer__container _container">
+                    <div class="footer__contacts">
+                        <a href="" class="footer__logo logo">
+                            <img src="./images/logo.png">
+                        </a>
+                        <div class="footer__socials">
+                            <a href="">
+                                <img src="./images/instagram.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="./images/twitter.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="./images/facebook.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="footer__nav">
+                        <li class="footer__nav-item">
+                            <a href="">Home</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="">About</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a href="">Episodes</a>
+                        </li>
+                        <li class="footer__nav-item"><a href="">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__useful-links useful-links">
+                        <li class="useful-links__item">
+                            <a href="">Style Guide</a>
+                        </li>
+                        <li class="useful-links__item">
+                            <a href="">Instructions</a>
+                        </li>
+                        <li class="useful-links__item">
+                            <a href="">Changelog</a>
+                        </li>
+                        <li class="useful-links__item">
+                            <a href="">Credit</a>
+                        </li>
+                        <li class="useful-links__item">
+                            <a href="">Powered by Webflow</a>
+                        </li>
+                        <li class="useful-links__item">
+                            <a href="">Licenses</a>
+                        </li>
+                    </ul>
+                    <div class="footer__listen-on-links listen-on-links">
+                        <a class="listen-on-links__item" href="">
+                            <img src="./images/listened-on1.png">
+                        </a>
+                        <a class="listen-on-links__item" href="">
+                            <img src="./images/listened-on2.png">
+                        </a>
+                        <a class="listen-on-links__item" href="">
+                            <img src="./images/listened-on3.png">
+                        </a>
+                        <a class="listen-on-links__item" href="">
+                            <img src="./images/listened-on4.png">
+                        </a>
+                        <a class="listen-on-links__item" href="">
+                            <img src="./images/listened-on5.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
