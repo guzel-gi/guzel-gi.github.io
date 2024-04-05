@@ -32,6 +32,9 @@
                         </li>
                     </ul>
                 </nav>
+                <div class="menu__burger">
+                    <span class="menu__burger-span"></span>
+                </div>
             </div>
         </header>
         <main class="main">
@@ -282,6 +285,14 @@
             </div>
         </footer>
     </div>
+    <script>
+        let a = document.querySelector('.menu__burger');
+        console.log(a);
+        a.addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.header__menu').classList.toggle('open');
+        });
+    </script>
 </body>
 
 </html>
