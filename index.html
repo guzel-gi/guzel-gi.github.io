@@ -41,14 +41,21 @@
             <div class="promo__wrapper _container">
                 <div class="promo__container">
                     <div class="promo__img">
+                        <div class="promo__img-before">
+                            <img src="./images/promo_frame.png" alt="">
+                        </div>
                         <picture>
+                            <source media="(max-width: 547px)" srcset="./images/promo_547px.png" />
                             <source media="(max-width: 1092px)" srcset="./images/promo_1092px.png" />
                             <source media="(min-width: 1093px)" srcset="./images/promo.png" />
                             <img src="./images/promo.png" alt="">
                         </picture>
                     </div>
                     <div class="promo__description">
-                        <h1 class="promo__title">Take your podcast to the next level</h1>
+                        <h1 class="promo__title">Take your podcast to the 
+                            <span class="promo__span">next</span>
+                            <strong>level</strong>
+                        </h1>
                         <div class="listen-on">
                             <p class="listen-on__text">Listened on</p>
                             <div class="promo__listen-on-links listen-on-links">
@@ -287,7 +294,6 @@
     </div>
     <script>
         let a = document.querySelector('.menu__burger');
-        console.log(a);
         a.addEventListener('click', function() {
             this.classList.toggle('active');
             document.querySelector('.header__menu').classList.toggle('open');

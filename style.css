@@ -132,10 +132,21 @@ body {
     justify-content: space-between;
     gap: 60px;
 }
+.promo__img-before {
+    position: absolute;
+    top: -26px;
+    left: -26px;
+    z-index: 50;
+    width: 68px;
+    height: 74px;
+}
 .promo__img {
+    display: flex;
+    position: relative;
     max-width: 650px;
     max-height: 873px;
 }
+
 .promo__description {
     display: block;
 }
@@ -144,6 +155,21 @@ body {
     line-height: 88px;
     letter-spacing: 3.2px;
     margin-bottom: 74px;
+}
+.promo__span {
+    position: relative;
+}
+.promo__span::after {
+    content: '';
+    position: absolute;
+    background-image: url(./images/next.png);
+    background-repeat: no-repeat;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    width: 160px;
+    height: 11px;
 }
 .listen-on {
     display: block;
@@ -395,6 +421,10 @@ line-height: 27px;
     .listen-on {
         display: none;
     }
+    .promo__img {
+        width: 100%;
+        display: flex;
+    }
     .promo__description {
         text-align: center;
     }
@@ -472,6 +502,20 @@ line-height: 27px;
     .menu__burger {
         display: flex;
     }
+    .promo__title {
+        font-size: 60px;
+        line-height: 78px;
+        letter-spacing: 3px;
+        margin-bottom: 44px;
+    }
+    .last-episodes__header {
+        flex-wrap: wrap;
+    }
+    .last-episodes__title {
+        font-size: 54px;
+        line-height: 69.2px;
+        letter-spacing: 2.98px;
+    }
     .last-episodes__img {
         display: none;
     }
@@ -482,4 +526,72 @@ line-height: 27px;
     .footer__contacts {
         padding-right: 50px; 
     }
+}
+@media (max-width: 711px) {
+    .reports__container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 16px;
+    }
+}
+@media (max-width: 547px) {
+    .promo__title {
+        font-size: 45px;
+        line-height: 58px;
+        letter-spacing: 3px;
+        margin-bottom: 44px;
+        text-align: center;
+    }
+    .last-episodes__header {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .last-episodes__title {
+        font-size: 44px;
+        line-height: 59.2px;
+        letter-spacing: 2.98px;
+    }
+    .main-button {
+        font-size: 14px;
+        line-height: 24px;
+    
+    }
+    .last-episodes__number {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .last-episodes__name {
+        font-size: 37px;
+        line-height: 50.4px;
+        letter-spacing: 2.56px;
+    }
+    .last-episodes__episode {
+        margin-bottom: 30px;
+    }
+    .subscribe__description {
+        display: block;
+        padding: 60px 60px 10px 60px;
+        width: 642px;
+    }
+    .subscribe__subtitle {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .subscribe__title {
+        font-size: 42px;
+        line-height: 49.2px;
+        letter-spacing: 2.88px;
+    }
+    .subscribe__form {
+        margin: 30px 60px;
+        
+    }
+    .subscribe__form>input {
+        padding: 17px 9px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 18.8px;
+    }
+
 }
