@@ -552,6 +552,9 @@ line-height: 27px;
         line-height: 49.2px;
         letter-spacing: 2.98px;
     }
+    .last-episodes__title-button {
+        width: 100%;
+    }
     .main-button {
         font-size: 14px;
         line-height: 24px;
@@ -569,6 +572,16 @@ line-height: 27px;
     .last-episodes__episode {
         margin-bottom: 30px;
     }
+    .last-episodes__button {
+        width: 100%;
+    }
+    .host__container {
+        font-size: 18px;
+    }
+    .host__title {
+        font-size: 35px;
+        line-height: 49.2px;
+    }
     .subscribe__description {
         display: block;
         padding: 60px 60px 10px 60px;
@@ -579,8 +592,8 @@ line-height: 27px;
         line-height: 24px;
     }
     .subscribe__title {
-        font-size: 42px;
-        line-height: 49.2px;
+        font-size: 32px;
+        line-height: 39.2px;
         letter-spacing: 2.88px;
     }
     .subscribe__form {
@@ -592,6 +605,20 @@ line-height: 27px;
         margin-bottom: 15px;
         font-size: 14px;
         line-height: 18.8px;
+    }
+    .subscribe__button {
+        width: 100%;
+    }
+    .reports__wrapper {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer__wrapper {
+        padding-top: 30px;
+        padding-bottom: 36px;
+    }
+    .footer__container {
+        flex-wrap: wrap;
     }
 
 }
